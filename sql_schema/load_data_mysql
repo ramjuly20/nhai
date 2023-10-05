@@ -1,0 +1,15 @@
+Min > 1/3 of max For Relative Height (Decimal)
+Gimbal pitch - >function , min and max  < 1% deviation and avg  
+RMS speed ; Avg of across 1k Images 
+Lat and Long -> min ,max should be recorded in summary (Should't be 0)
+
+
+    
+LOAD DATA LOCAL INFILE '/home/ram/kpmg/recursion/out.csv'
+INTO TABLE meta_analysis
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY ''
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+( `ExifToolVersionNumber` ,`FileName` ,`Directory` ,`FileSize` ,`FileModificationDateTime` ,`FileAccessDateTime` ,`FileInodeChangeDateTime` ,`FilePermissions` ,`FileType` ,`FileTypeExtension` ,`MIMEType` ,`JFIFVersion` ,`ExifByteOrder` ,`ImageDescription` ,`CameraModelName` ,`Orientation` ,`XResolution` ,`YResolution` ,`ResolutionUnit` ,`Software` ,`ModifyDate` ,`YCbCrPositioning` ,`ExposureTime` ,`FNumber` ,`ExposureProgram` ,`ISO` ,`ExifVersion` ,`DateTimeOriginal` ,`CreateDate` ,`ComponentsConfiguration` ,`CompressedBitsPerPixel` ,`ShutterSpeedValue` ,`ApertureValue` ,`ExposureCompensation` ,`MaxApertureValue` ,`SubjectDistance` ,`MeteringMode` ,`LightSource` ,`Flash` ,`FocalLength` ,`Warning` ,`Make` ,`SpeedX` ,`SpeedY` ,`SpeedZ` ,`Pitch` ,`Yaw` ,`Roll` ,`CameraPitch` ,`CameraYaw` ,`CameraRoll` ,`FlashpixVersion` ,`ColorSpace` ,`ExifImageWidth` ,`ExifImageHeight` ,`InteroperabilityIndex` ,`InteroperabilityVersion` ,`ExposureIndex` ,`FileSource` ,`SceneType` ,`CustomRendered` ,`ExposureMode` ,`WhiteBalance` ,`DigitalZoomRatio` ,`FocalLengthIn35mmFormat` ,`SceneCaptureType` ,`GainControl` ,`Contrast` ,`Saturation` ,`Sharpness` ,`SubjectDistanceRange` ,`SerialNumber` ,`GPSVersionID` ,`GPSLatitudeRef` ,`GPSLongitudeRef` ,`GPSAltitudeRef` ,`XPComment` ,`XPKeywords` ,`Compression` ,`ThumbnailOffset` ,`ThumbnailLength` ,`About` ,`Format` ,`AbsoluteAltitude` ,`RelativeAltitude` ,`GimbalRollDegree` ,`GimbalYawDegree` ,`GimbalPitchDegree` ,`FlightRollDegree` ,`FlightYawDegree` ,`FlightPitchDegree` ,`CamReverse` ,`GimbalReverse` ,`SelfData` ,`CalibratedFocalLength` ,`CalibratedOpticalCenterX` ,`CalibratedOpticalCenterY` ,`RtkFlag` ,`Version` ,`HasSettings` ,`HasCrop` ,`AlreadyApplied` ,`ImageWidth` ,`ImageHeight` ,`EncodingProcess` ,`BitsPerSample` ,`ColorComponents` ,`YCbCrSubSampling` ,`Aperture` ,`ImageSize` ,`Megapixels` ,`ScaleFactorTo35mmEquivalent` ,`ShutterSpeed` ,`ThumbnailImage` ,`GPSAltitude` ,`GPSLatitude` ,`GPSLongitude` ,`CircleOfConfusion` ,`FieldOfView` ,`GPSPosition` ,`HyperfocalDistance` ,`LightValue` ,`unix_ModifyDate` ,`unix_DateTimeOriginal` ,`FloatGPSLatitude` ,`FloatGPSLongitude` ,`Speed` ,`isSpeedWithinLimits` ,`isMegaPixelGreaterThan12` ,`isAltitudeWithinLimits` ,`Angle` ,`isWhiteBalanceAuto` ,`QCStatus` ,`MPF_Version` ,`Number_Of_Images` ,`MP_Image_Flags` ,`MP_Image_Format` ,`MP_Image_Type` ,`MP_Image_Length` ,`MP_Image_Start` ,`Dependent_Image_1_Entry_Number` ,`Dependent_Image_2_Entry_Number` ,`Image_UID_List` ,`Total_Frames` ,`Preview_Image` )
