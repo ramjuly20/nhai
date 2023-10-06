@@ -1,0 +1,148 @@
+        id: 1474
+      ExifToolVersionNumber: 12.65
+                   FileName: blur_0996.JPG
+                  Directory: Images
+                   FileSize: 2.3 MB
+   FileModificationDateTime: 2023:10:05 14:04:38+05:30
+         FileAccessDateTime: 2023:10:05 14:04:47+05:30
+    FileInodeChangeDateTime: 2023:10:05 14:04:38+05:30
+            FilePermissions: -rw-r--r--
+                   FileType: JPEG
+          FileTypeExtension: jpg
+                   MIMEType: image/jpeg
+                JFIFVersion: 1.01
+              ExifByteOrder: Little-endian (Intel, II)
+           ImageDescription: DCIM\104MEDIA\DJI_0996.JPG
+            CameraModelName: FC6310
+                Orientation: Horizontal (normal)
+                XResolution: 72
+                YResolution: 72
+             ResolutionUnit: inches
+                   Software: v01.07.1641
+                 ModifyDate: 2022:09:26 17:42:30
+           YCbCrPositioning: Centered
+               ExposureTime: 1/80
+                    FNumber: 4.0
+            ExposureProgram: Program AE
+                        ISO: 100
+                ExifVersion: 0230
+           DateTimeOriginal: 2022:09:26 17:42:30
+                 CreateDate: 2022:09:26 17:42:30
+    ComponentsConfiguration: -, Cr, Cb, Y
+     CompressedBitsPerPixel: 3.157253514
+          ShutterSpeedValue: 1/80
+              ApertureValue: 4.0
+       ExposureCompensation: 0
+           MaxApertureValue: 2.8
+            SubjectDistance: 0 m
+               MeteringMode: Center-weighted average
+                LightSource: Daylight
+                      Flash: No flash function
+                FocalLength: 8.8 mm (35 mm equivalent: 24.0 mm)
+                    Warning: [minor] Possibly incorrect maker notes offsets (fix by 1783?)
+                       Make: DJI
+                     SpeedX: +1.40
+                     SpeedY: -7.60
+                     SpeedZ: +0.00
+                      Pitch: -9.30
+                        Yaw: -79.00
+                       Roll: -3.50
+                CameraPitch: -90.00
+                  CameraYaw: -79.50
+                 CameraRoll: +0.00
+            FlashpixVersion: 0010
+                 ColorSpace: sRGB
+             ExifImageWidth: 5472
+            ExifImageHeight: 3078
+      InteroperabilityIndex: R98 - DCF basic file (sRGB)
+    InteroperabilityVersion: 0100
+              ExposureIndex: undef
+                 FileSource: Digital Camera
+                  SceneType: Directly photographed
+             CustomRendered: Normal
+               ExposureMode: Auto
+               WhiteBalance: Auto
+           DigitalZoomRatio: undef
+    FocalLengthIn35mmFormat: 24 mm
+           SceneCaptureType: Standard
+                GainControl: None
+                   Contrast: Normal
+                 Saturation: Normal
+                  Sharpness: Normal
+       SubjectDistanceRange: Unknown
+               SerialNumber: 86d69a63e0e39f045606c2f73b0c89e6
+               GPSVersionID: 2.3.0.0
+             GPSLatitudeRef: North
+            GPSLongitudeRef: East
+             GPSAltitudeRef: Above Sea Level
+                  XPComment: Type=N, Mode=P, DE=None
+                 XPKeywords: v01.07.1641;1.2.0;v1.0.0
+                Compression: JPEG (old-style)
+            ThumbnailOffset: 10258
+            ThumbnailLength: 10670
+                      About: DJI Meta Data
+                     Format: image/jpg
+           AbsoluteAltitude: +88.87
+           RelativeAltitude: +49.50
+           GimbalRollDegree: +0.00
+            GimbalYawDegree: -79.50
+          GimbalPitchDegree: -90.00
+           FlightRollDegree: -3.50
+            FlightYawDegree: -79.00
+          FlightPitchDegree: -9.30
+                 CamReverse: 0
+              GimbalReverse: 0
+                   SelfData: Undefined
+      CalibratedFocalLength: 3666.666504
+   CalibratedOpticalCenterX: 2736.000000
+   CalibratedOpticalCenterY: 1539.000000
+                    RtkFlag: 0
+                    Version: 7.0
+                HasSettings: False
+                    HasCrop: False
+             AlreadyApplied: False
+                 ImageWidth: 5472
+                ImageHeight: 3078
+            EncodingProcess: Baseline DCT, Huffman coding
+              BitsPerSample: 8
+            ColorComponents: 3
+           YCbCrSubSampling: YCbCr4:2:2 (2 1)
+                   Aperture: 4.0
+                  ImageSize: 5472x3078
+                 Megapixels: 16.8
+ScaleFactorTo35mmEquivalent: 2.7
+               ShutterSpeed: 1/80
+             ThumbnailImage: (Binary data 10670 bytes, use -b option to extract)
+                GPSAltitude: 88.8 m Above Sea Level
+                GPSLatitude: 21 deg 6' 46.55" N
+               GPSLongitude: 71 deg 46' 12.23" E
+          CircleOfConfusion: 0.011 mm
+                FieldOfView: 73.7 deg
+                GPSPosition: 21 deg 6' 46.55" N, 71 deg 46' 12.23" E
+         HyperfocalDistance: 1.76 m
+                 LightValue: 10.3
+            unix_ModifyDate: 1664194350
+      unix_DateTimeOriginal: 1664194350
+           FloatGPSLatitude: 21.112930555555558
+          FloatGPSLongitude: 71.77006388888888
+                      Speed: 4.461688768467234
+        isSpeedWithinLimits: 1
+   isMegaPixelGreaterThan12: 1
+     isAltitudeWithinLimits: 1
+                      Angle: 1
+         isWhiteBalanceAuto: 1
+                   QCStatus: Passed
+                 MPFVersion: NULL
+             NumberOfImages: NULL
+               MPImageFlags: NULL
+              MPImageFormat: NULL
+                MPImageType: NULL
+              MPImageLength: NULL
+               MPImageStart: NULL
+ DependentImage1EntryNumber: NULL
+ DependentImage2EntryNumber: NULL
+               ImageUIDList: NULL
+                TotalFrames: NULL
+               PreviewImage: NULL
+                  createdat: 2023-10-05 14:40:08
+                  updatedat: 2023-10-05 14:40:08

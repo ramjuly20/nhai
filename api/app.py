@@ -1,6 +1,6 @@
-from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import text, Table, MetaData
 from flask import Flask, request, jsonify, session
-from models import User, session_db, UserSession
+from models import User, session_db, engine, UserSession
 import bcrypt
 from flask_cors import CORS
 from token_key import generate_token_key
@@ -61,7 +61,27 @@ def logout_user():
     else:
         return jsonify({'message' : 'Session token is not provided to user'}), 400
         
+@app.route("/api/meta_analysis", methods = ['GET'])
+def get_data_from_meta():
+    #We can use text module for passing select * from meta_analysis
+    metadata = MetaData()
+    meta_analysis = Table('meta_analysis', metadata, autoload_with=engine)
+    select_query = meta_analysis.select()
+    with engine.connect() as connection:
+        result = connection.execute(select_query)
+        rows = result.fetchall()
+    connection.close()
 
-        
+    # Get the column names
+    column_names = meta_analysis.columns.keys()    
+    if column_names and rows:
+        #Create a list of dictionaries with column headers as keys
+        data_with_headers = [dict(zip(column_names, row)) for row in rows]
+        return jsonify({"meta_data" : data_with_headers}), 200
+    else:
+        return jsonify({"Error": "Metadata not available"}), 403
+
+
+
 if __name__ == '__main__':
     app.run(debug=True, host='localhost')
