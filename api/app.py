@@ -82,6 +82,5 @@ def get_data_from_meta():
         return jsonify({"Error": "Metadata not available"}), 403
 
 
-
 if __name__ == '__main__':
     app.run(debug=True, host='localhost')
